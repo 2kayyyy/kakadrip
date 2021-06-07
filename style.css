@@ -1,0 +1,394 @@
+
+header{
+    width: 100%;
+    box-shadow: 0px 2px 5px #aaa;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo-name{
+    margin-left: 10px;
+}
+
+.nav-container ul li a{
+    text-decoration: none;
+}
+
+
+.nav-container ul li a:hover {
+    border-bottom: solid #1b262c;
+}
+
+a.cart:hover{
+    color: #ff6e90f5;
+    border-bottom: none !important;
+}
+.nav-container li a {
+    font-family: raleway;
+    font-weight: 600;
+    margin-right: 1.5em;
+    transition: border 100ms linear;
+    color: black;
+}
+
+.nav-lists input{
+    position: relative;
+    right: 100px;
+    bottom: 10px;
+    padding: 10px 250px 10px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: blanchedalmond;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+
+.nav-lists button{
+    position: relative;
+    right: 90px;
+    bottom: 10px;
+    background-color: black;
+}
+
+.nav-lists{
+   font-size: 17px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: columns;
+    text-align: right;
+    position: relative;
+    top: 12px;
+}
+
+
+
+.cart{
+   position: relative;
+   bottom: 11px;
+}
+
+
+
+#drip1{
+    border-radius: 8px;
+    margin: 10px;
+}
+#drip2{
+    border-radius: 8px;
+    margin: 10px;
+}
+#desc{
+    text-align: justify;
+}
+
+#btn-login{
+    font-weight: 500;
+    font-size: 14px;
+    background-color: lightblue;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    outline:none;
+    cursor:pointer;
+}
+#btn-login:hover{
+    background-color:blue;
+    color: white;
+}
+#forgot-pw{
+    font-weight: 500;
+    font-size: 14px;
+    background-color: lightblue;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    outline:none;
+    cursor:pointer;
+}
+#forgot-pw:hover{
+    background-color: blue;
+    color: white;
+}
+
+button.search{
+    color: white;
+    font-size: 1rem;
+    padding: 0.5em 0.7em;
+    transition: background-color 200ms linear;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color:blacks
+}
+  
+button.search:hover {
+    background-color:#ff6e90f5;
+}
+
+  
+.label{
+padding-left: 10px;
+padding-right: 10px;
+}
+#fifty-percent-off {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1b262c;
+}
+.big-offer * > h3 {
+    margin-bottom: 0.5em;
+}
+.about-big-offer > h3,
+.about > h3 {
+  color: #3282b8;
+  font-size: raleway;
+  font-weight: 600;
+}
+
+.big-offer-image,
+.image,
+.category,
+.category2 {
+  box-shadow: 0 0 3px #1b262c;
+}
+.big-offer-image,
+.image {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+.about-big-offer .discount {
+    text-decoration: line-through;
+}
+
+
+.big-offer {
+    margin-top: 1em;
+    width: 32%;
+    display: flex;
+    align-items: left;
+
+    box-shadow: none;
+}
+
+.big-offer-image img {
+    width: 20%;
+    margin-right: 2em;
+}
+
+
+.about-big-offer {
+    text-align: left;
+}
+
+.about-big-offer h3 {
+    font-size: 1.7rem;
+}
+
+.big-offer-image{
+    box-shadow: none;
+}
+
+#signup-form{
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: whitesmoke
+
+}
+.input-item{
+    width:100%;
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+.input-item:focus{
+    background-color: lightblue;
+}
+
+#bday{
+    margin-top: 4px;
+}
+
+.register-btn{
+    width: 10%;
+    font-size: 18px;
+    cursor: pointer;
+    background-color:rgba(0, 72, 255, 0.8);
+    
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    padding: 8px 12px;
+    margin-top: 36px;
+    outline: none;
+}
+.register-btn:hover {
+    background-color: rgba(0, 0, 255, 1);
+}
+#register{
+    color: white;
+    text-decoration: none;
+}
+p.already
+{
+position: relative;
+top: -9px;
+}
+
+.register-page{
+    padding: 50px 0;
+    background-color:#fc7267;
+}
+.col-2{
+    background: #fff;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    text-align:center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    
+}
+.col-2 h1{
+    color: #1c8adb;
+    margin-top: 4px;
+}
+.col-1{
+    width: 290px;
+    position: relative;
+    bottom: 20px;
+    left: 200px;
+}
+.col-2{
+    position: relative;
+    left: 200px;
+    bottom: 650px;
+}
+.input-item{
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: -10px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80%;
+    border: 1px solid #999;
+    outline: none;
+}
+ 
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background-color: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+
+}
+.col-2 img{
+    width: 200px;
+    margin-top: -50px;
+}
+
+.col-2 button{
+    background-color: #fc7267;
+    width: 65%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 6px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.col-2 button img{
+    width: 17%;
+    position: relative;
+    left: -39px;
+    bottom: -15px;
+    margin-right: -29px;
+}
+
+.col-2-signin{
+    background: #fff;
+    width: 370px;
+    height: 360px;
+    position: relative;
+    text-align:center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    
+}
+.col-2-signin h1{
+    color: #1c8adb;
+    margin-top: 4px;
+}
+.col-2-signin{
+    position: relative;
+    left: 150px;
+    bottom: 600px;
+}
+.col-2-signin img{
+    width: 200px;
+    margin-top: -50px;
+}
+.col-2-signin button{
+    background-color: #fc7267;
+    width: 65%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 6px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.col-2-signin button img{
+    width: 17%;
+    position: relative;
+    left: -39px;
+    bottom: -15px;
+    margin-right: -29px;
+}
+p.already-signin
+{
+position: relative;
+top: 0px;
+}
+.alert{
+    margin: 0px 50px 10px 50px;
+    background-color: rgba(255, 103, 103, 0.678);
+    border-radius: 4px;
+    
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: -10px;
+    text-align:start;
+}
